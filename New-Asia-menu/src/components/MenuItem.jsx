@@ -1,19 +1,45 @@
 function MenuItem({ item, language }) {
     return (
-        <article>
-            <h2>
-                {item.name[language]}
+        <article className="menu-item">
 
-                {language !== "bg" && (
-                    <span> ({item.name.bg})</span>
-                )}
-            </h2>
+            <div className="menu-item-image-container">
+                <img
+                    src={item.image}
+                    alt={item.name[language]}
+                    className="menu-item-image"
+                />
+            </div>
 
-            <p>{item.description[language]}</p>
+            <div className="menu-item-content">
 
-            <p>{item.weight} г</p>
+                <h3 className="menu-item-name">
+                    {item.name[language]}
 
-            <strong>{item.price.toFixed(2)} €</strong>
+                    {language !== "bg" && (
+                        <span className="bulgarian-name">
+                            ({item.name.bg})
+                        </span>
+                    )}
+                </h3>
+
+                <p className="menu-item-description">
+                    {item.description[language]}
+                </p>
+
+                <div className="menu-item-bottom">
+
+                    <span className="menu-item-weight">
+                        {item.weight} г
+                    </span>
+
+                    <span className="menu-item-price">
+                        {item.price.toFixed(2)} €
+                    </span>
+
+                </div>
+
+            </div>
+
         </article>
     );
 }

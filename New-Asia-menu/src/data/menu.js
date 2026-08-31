@@ -16,7 +16,9 @@ const menu = [
         },
 
         price: 12.90,
-        weight: 450
+        weight: 450,
+
+        image: "/menu/pile-s-oriz.png"
     },
 
     {
@@ -36,7 +38,9 @@ const menu = [
         },
 
         price: 8.90,
-        weight: 350
+        weight: 350,
+
+        image: "/menu/pile-s-oriz.png"
     }
 ];
 

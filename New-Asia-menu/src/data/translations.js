@@ -4,6 +4,12 @@ const translations = {
         menu: "Меню",
         categories: "Категории",
         workingHours: "Работно време",
+
+        all: "Всички",
+        mainDishes: "Основни ястия",
+        soups: "Супи",
+        drinks: "Напитки",
+
         contact: "Контакти",
         language: "Език"
     },
@@ -13,6 +19,12 @@ const translations = {
         menu: "Menu",
         categories: "Categories",
         workingHours: "Working Hours",
+
+        all: "All",
+        mainDishes: "Main Dishes",
+        soups: "Soups",
+        drinks: "Drinks",
+
         contact: "Contact",
         language: "Language"
     },
@@ -22,6 +34,12 @@ const translations = {
         menu: "Меню",
         categories: "Категории",
         workingHours: "Рабочее время",
+
+        all: "Все",
+        mainDishes: "Основные блюда",
+        soups: "Супы",
+        drinks: "Напитки",
+
         contact: "Контакты",
         language: "Язык"
     }
