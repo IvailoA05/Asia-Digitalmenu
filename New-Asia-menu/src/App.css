@@ -343,6 +343,13 @@
     background: #8f0000;
 }
 
+.category-filter button.active {
+    background: #8f0000;
+    color: #d4af37;
+    border-color: #d4af37;
+    font-weight: bold;
+}
+
 /* =========================
    MENU
    ========================= */

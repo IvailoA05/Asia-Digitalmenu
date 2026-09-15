@@ -23,7 +23,7 @@ const menu = [
 
     {
         id: 2,
-        category: "salads",
+        category: "soups",
 
         name: {
             bg: "Шопска салата",

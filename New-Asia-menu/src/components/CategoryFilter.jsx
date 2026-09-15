@@ -1,4 +1,4 @@
-function CategoryFilter({ t }) {
+function CategoryFilter({ t, category, setCategory }) {
     const categories = [
         {
             id: "all",
@@ -12,17 +12,21 @@ function CategoryFilter({ t }) {
             id: "soups",
             name: t.soups
         },
-        {
+        /*{
             id: "drinks",
             name: t.drinks
-        }
+        }*/
     ];
 
     return (
         <div className="category-filter">
-            {categories.map((category) => (
-                <button key={category.id}>
-                    {category.name}
+            {categories.map((item) => (
+                <button 
+                key={item.id}
+                className={category === item.id ? "active" : ""}
+                onClick={() => setCategory(item.id)}
+                >
+                    {item.name}
                 </button>
             ))}
         </div>

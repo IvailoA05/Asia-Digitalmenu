@@ -12,8 +12,13 @@ import "./App.css";
 
 function App() {
     const [language, setLanguage] = useState("bg");
+    const [category, setCategory] = useState("all");
 
     const t = translations[language];
+
+    const filteredMenu = category === "all"
+    ? menu
+    : menu.filter((item) => item.category === category);
 
     return (
         <div className="app">
@@ -31,10 +36,14 @@ function App() {
 
                     <h2>{t.menu}</h2>
 
-                    <CategoryFilter t={t} />
+                    <CategoryFilter 
+                        t={t}
+                        category={category}
+                        setCategory={setCategory} 
+                    />
 
                     <div className="menu-list">
-                        {menu.map((item) => (
+                        {filteredMenu.map((item) => (
                             <MenuItem
                                 key={item.id}
                                 item={item}
