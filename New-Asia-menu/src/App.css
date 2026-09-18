@@ -652,3 +652,14 @@
     .info-section {
         grid-template-columns: 1fr;
     }
+
+    .info-title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info-title img {
+        width: 48px;
+        height: 48px;
+    }

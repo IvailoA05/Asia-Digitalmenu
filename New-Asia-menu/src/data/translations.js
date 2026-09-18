@@ -4,6 +4,8 @@ const translations = {
         menu: "Меню",
         categories: "Категории",
         workingHours: "Работно време",
+        workingDays: "Понеделник - Събота",
+        restDay: "Неделя: Почивен ден",
 
         all: "Всички",
         mainDishes: "Основни ястия",
@@ -19,6 +21,8 @@ const translations = {
         menu: "Menu",
         categories: "Categories",
         workingHours: "Working Hours",
+        workingDays: "Monday - Saturday",
+        restDay: "Sunday: Day off",
 
         all: "All",
         mainDishes: "Main Dishes",
@@ -34,6 +38,8 @@ const translations = {
         menu: "Меню",
         categories: "Категории",
         workingHours: "Рабочее время",
+        workingDays: "Понедельник - Суббота",
+        restDay: "Воскресенье: выходной",
 
         all: "Все",
         mainDishes: "Основные блюда",

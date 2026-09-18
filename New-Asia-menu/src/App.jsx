@@ -57,21 +57,27 @@ function App() {
                 <section className="info-section">
 
                     <div className="info-card">
-                        <h2>{t.workingHours}</h2>
+                        <h2 class="info-title">
+                            <img src="/icons/clock.png" alt="" />    
+                            {t.workingHours}
+                        </h2>
                         <p>
-                            Понеделник - Неделя
+                            {t.workingDays}
                         </p>
                         <p>
                             10:00 - 22:00
                         </p>
+                        <p>
+                            {t.restDay}
+                        </p>
                     </div>
 
-                    <div className="info-card">
+                   {/*  <div className="info-card">
                         <h2>{t.contact}</h2>
                         <p>
                             +359 88 123 4567
                         </p>
-                    </div>
+                    </div> */}
 
                 </section>
 

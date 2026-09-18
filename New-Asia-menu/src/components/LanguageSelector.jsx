@@ -7,17 +7,17 @@ function LanguageSelector({ language, setLanguage }) {
         {
             code: "en",
             name: "EN",
-            flag: "🇬🇧"
+            flag: <img src="/flags/gb.svg" width="28" />
         },
         {
             code: "bg",
             name: "BG",
-            flag: "🇧🇬"
+            flag: <img src="/flags/bg.svg" width="28" />
         },
         {
             code: "ru",
             name: "RU",
-            flag: "🇷🇺"
+            flag: <img src="/flags/ru.svg" width="28" />
         }
     ];
 
