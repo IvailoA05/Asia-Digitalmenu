@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "JakobRegularFont";
+    src: url("/fonts/JakobRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .app {
     min-height: 100vh;
     background:
@@ -164,26 +171,13 @@
     align-items: center;
 }
 
-.logo-circle {
-    width: 90px;
-    height: 90px;
+.restaurant-logo {
+    /*width: 140px;*/
+    height: 60px;
+    object-fit: contain;
 
-    border: 2px solid #d4af37;
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    font-size: 13px;
-    font-weight: bold;
-
-    background: #620000;
-    color: #d4af37;
-
-    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+    border-radius: 18px;
+    corner-shape: superellipse(1.406);
 }
 
 /* =========================
@@ -267,6 +261,7 @@
 
     font-size: 20px;
     letter-spacing: 4px;
+    stroke-width: 20%;
 
     text-transform: uppercase;
 }
@@ -276,7 +271,13 @@
 
     font-size: clamp(50px, 8vw, 100px);
 
-    font-family: Georgia, serif;
+    color: #f9f0c9;
+    text-shadow: 8px 8px 4px black;
+    stroke-width: 20%;
+
+
+    /*font-family: Georgia, serif;*/
+    font-family: "JakobRegularFont", sans-serif;
 }
 
 .hero-description {
@@ -557,11 +558,11 @@
         font-size: 24px;
     }
 
-    .logo-circle {
-        width: 70px;
-        height: 70px;
-
-        font-size: 10px;
+    .restaurant-logo {
+        /*width: 110px;*/
+        height: 50px;
+        border-radius: 15px;
+        corner-shape: superellipse(1.406);
     }
 
     .language-selector {

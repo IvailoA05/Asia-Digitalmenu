@@ -5,9 +5,11 @@ function Navbar({ language, setLanguage }) {
         <nav className="navbar">
 
             <div className="navbar-logo">
-                <div className="logo-circle">
-                    NEW ASIA
-                </div>
+                <img
+                    src="/logo.png"
+                    alt="New Asia"
+                    className="restaurant-logo"
+                />
             </div>
 
             <LanguageSelector

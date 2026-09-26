@@ -3,11 +3,11 @@ function Hero({ t }) {
         <section className="hero">
             <div className="hero-overlay">
                 <p className="hero-subtitle">
-                    Chinese Cuisine
+                    -Chinese Cuisine-
                 </p>
 
                 <h1>
-                    New Asia
+                    NEW ASIA
                 </h1>
 
                 <p className="hero-description">

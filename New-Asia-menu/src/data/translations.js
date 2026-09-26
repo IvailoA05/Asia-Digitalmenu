@@ -1,6 +1,6 @@
 const translations = {
     bg: {
-        welcome: "Добре дошли в New Asia",
+        welcome: "Нова Asia - Дигитално меню",
         menu: "Меню",
         categories: "Категории",
         workingHours: "Работно време",
@@ -17,7 +17,7 @@ const translations = {
     },
 
     en: {
-        welcome: "Welcome to New Asia",
+        welcome: "New Asia - Digital menu",
         menu: "Menu",
         categories: "Categories",
         workingHours: "Working Hours",
@@ -34,7 +34,7 @@ const translations = {
     },
 
     ru: {
-        welcome: "Добро пожаловать в New Asia",
+        welcome: "Новая Asia - Цифровое меню",
         menu: "Меню",
         categories: "Категории",
         workingHours: "Рабочее время",
