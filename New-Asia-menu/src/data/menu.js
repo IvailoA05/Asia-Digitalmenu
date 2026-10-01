@@ -16,7 +16,8 @@ const menu = [
         },
 
         price: 12.90,
-        weight: 450,
+        quantity: 1,
+        unit: "kg",
 
         image: "/menu/pile-s-oriz.png"
     },
@@ -38,7 +39,8 @@ const menu = [
         },
 
         price: 8.90,
-        weight: 350,
+        quantity: 1,
+        unit: "kg",
 
         image: "/menu/pile-s-oriz.png"
     }

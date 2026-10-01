@@ -29,7 +29,7 @@ function MenuItem({ item, language }) {
                 <div className="menu-item-bottom">
 
                     <span className="menu-item-weight">
-                        {item.weight} г
+                        {item.quantity} {item.unit}
                     </span>
 
                     <span className="menu-item-price">
