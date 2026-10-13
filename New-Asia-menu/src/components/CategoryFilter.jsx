@@ -12,6 +12,10 @@ function CategoryFilter({ t, category, setCategory }) {
             id: "soups",
             name: t.soups
         },
+        {
+            id: "chips",
+            name: t.chips
+        }
         /*{
             id: "drinks",
             name: t.drinks

@@ -10,6 +10,7 @@ const translations = {
         all: "Всички",
         mainDishes: "Основни ястия",
         soups: "Супи",
+        chips: "Чипс",
         drinks: "Напитки",
 
         contact: "Контакти",
@@ -27,6 +28,7 @@ const translations = {
         all: "All",
         mainDishes: "Main Dishes",
         soups: "Soups",
+        chips: "Chips",
         drinks: "Drinks",
 
         contact: "Contact",
@@ -44,6 +46,7 @@ const translations = {
         all: "Все",
         mainDishes: "Основные блюда",
         soups: "Супы",
+        chips: "Чипсы",
         drinks: "Напитки",
 
         contact: "Контакты",
