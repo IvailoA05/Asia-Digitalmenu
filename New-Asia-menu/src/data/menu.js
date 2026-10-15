@@ -226,7 +226,9 @@ const menu = [
         quantity: 1,
         unit: "kg",
 
-        image: "/menu/oriz-sus-zelenchuci.jpeg"
+        image: "/menu/oriz-sus-zelenchuci.jpeg",
+
+        veganRibbon: true
     },
 
     {

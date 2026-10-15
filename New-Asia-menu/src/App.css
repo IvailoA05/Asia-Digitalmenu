@@ -403,6 +403,8 @@
 .menu-item-image-container {
     width: 100%;
 
+    position: relative;
+
     aspect-ratio: 16 / 10;
 
     overflow: hidden;
@@ -421,6 +423,26 @@
 
 .menu-item:hover .menu-item-image {
     transform: scale(1.03);
+}
+
+.vegan-ribbon {
+  position: absolute;
+  top: 22px;
+  left: -38px;
+  width: 155px;
+  padding: 8px 0;
+
+  transform: rotate(-45deg);
+  background: #245c38;
+  color: white;
+  border-top: 1px solid #d4af37;
+  border-bottom: 1px solid #d4af37;
+
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 2;
+  pointer-events: none;
 }
 
 /* =========================

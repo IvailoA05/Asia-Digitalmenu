@@ -7,7 +7,16 @@ function MenuItem({ item, language }) {
                     src={item.image}
                     alt={item.name[language]}
                     className="menu-item-image"
+                    loading="lazy"
+                    decoding="async"
                 />
+                {item.veganRibbon && (
+                <div className={`vegan-ribbon vegan-ribbon-${language}`}>
+                    {language === "bg" && "🌿 Веган"}
+                    {language === "en" && "🌿 Vegan"}
+                    {language === "ru" && "🌿 Веганское"}
+                 </div>
+                )}
             </div>
 
             <div className="menu-item-content">
