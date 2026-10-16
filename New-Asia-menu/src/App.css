@@ -501,7 +501,8 @@
 }
 
 .menu-item-weight {
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: bolder;
 
     color: #d8caca;
 }
@@ -542,6 +543,10 @@
 
 .info-card h2 {
     color: #d4af37;
+}
+
+.scroll-to-top {
+  display: none;
 }
 
 /* =========================
@@ -685,4 +690,70 @@
     .info-title img {
         width: 48px;
         height: 48px;
+    }
+
+    .working-days {
+        font-size: 18px;
+    }
+
+    .working-hours {
+        font-size: 28px;
+        color: #d4af37;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+    }
+
+    @media (max-width: 700px) {
+        .scroll-to-top {
+            position: fixed;
+            right: 20px;
+            bottom: calc(20px + env(safe-area-inset-bottom));
+
+            width: 52px;
+            height: 52px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #650000;
+            color: #d4af37;
+            border: 2px solid #d4af37;
+            border-radius: 50%;
+
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+
+            cursor: pointer;
+            z-index: 1100;
+
+            animation: scroll-top-appear 0.25s ease-out;
+            transition:
+            background 0.2s ease,
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+        }
+
+        .scroll-to-top:active {
+            transform: scale(0.92);
+            background: #8f0000;
+        }
+    }
+
+    @keyframes scroll-top-appear {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .scroll-to-top {
+            animation: none;
+            transition: none;
+        }
     }

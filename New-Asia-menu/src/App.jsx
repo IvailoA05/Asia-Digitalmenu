@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -19,6 +19,30 @@ function App() {
     const filteredMenu = category === "all"
     ? menu
     : menu.filter((item) => item.category === category);
+
+    const [showScrollTop, setShowScrollTop] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+        const hero = document.querySelector(".hero");
+
+        if (!hero) return;
+
+    const heroBottom = hero.getBoundingClientRect().bottom;
+
+    setShowScrollTop(heroBottom <= 0);
+    };
+
+     handleScroll();
+
+     window.addEventListener("scroll", handleScroll, {
+        passive: true
+    });
+
+    return () => {
+        window.removeEventListener("scroll", handleScroll);
+    };
+    }, []);
 
     return (
         <div className="app">
@@ -61,13 +85,13 @@ function App() {
                             <img src="/icons/clock.png" alt="" />    
                             {t.workingHours}
                         </h2>
-                        <p>
+                        <p class="working-days">
                             {t.workingDays}
                         </p>
-                        <p>
+                        <p class="working-hours">
                             10:00 - 22:00
                         </p>
-                        <p>
+                        <p class="working-days">
                             {t.restDay}
                         </p>
                     </div>
@@ -82,6 +106,35 @@ function App() {
                 </section>
 
             </main>
+
+            {showScrollTop && (
+                <button
+                    className="scroll-to-top"
+                    onClick={() =>
+                    window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                    })
+                     }
+                    aria-label="Върни се най-горе"
+                     title="Най-горе"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                    >
+                        <path d="m18 15-6-6-6 6" />
+                        </svg>
+                    </button>
+                     )}
 
         </div>
     );
