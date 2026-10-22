@@ -4,7 +4,8 @@ const translations = {
         menu: "Меню",
         categories: "Категории",
         workingHours: "Работно време",
-        workingDays: "Понеделник - Събота",
+        workingDays: "Понеделник - Петък:",
+        workingSaturday: "Събота:",
         restDay: "Неделя: Почивен ден",
 
         all: "Всички",
@@ -22,7 +23,8 @@ const translations = {
         menu: "Menu",
         categories: "Categories",
         workingHours: "Working Hours",
-        workingDays: "Monday - Saturday",
+        workingDays: "Monday - Friday:",
+        workingSaturday: "Saturday:",
         restDay: "Sunday: Day off",
 
         all: "All",
@@ -40,7 +42,8 @@ const translations = {
         menu: "Меню",
         categories: "Категории",
         workingHours: "Рабочее время",
-        workingDays: "Понедельник - Суббота",
+        workingDays: "Понедельник - Пятница:",
+        workingSaturday: "Суббота:",
         restDay: "Воскресенье: выходной",
 
         all: "Все",

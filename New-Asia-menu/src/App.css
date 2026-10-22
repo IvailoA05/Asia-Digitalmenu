@@ -389,12 +389,12 @@
         box-shadow 0.2s ease;
 }
 
-.menu-item:hover {
+/*.menu-item:hover {
     transform: translateY(-4px);
 
     box-shadow:
         0 12px 25px rgba(0, 0, 0, 0.45);
-}
+} */
 
 /* =========================
    FOOD IMAGE
@@ -418,12 +418,12 @@
 
     object-fit: cover;
 
-    transition: transform 0.3s ease;
+    /*transition: transform 0.3s ease;*/
 }
 
-.menu-item:hover .menu-item-image {
+/*.menu-item:hover .menu-item-image {
     transform: scale(1.03);
-}
+}*/
 
 .vegan-ribbon {
   position: absolute;
@@ -532,7 +532,11 @@
 }
 
 .info-card {
-    padding: 30px;
+    padding-left: 40px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
 
     border: 1px solid #8f0000;
 
@@ -697,7 +701,7 @@
     }
 
     .working-hours {
-        font-size: 28px;
+        font-size: 24px;
         color: #d4af37;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bolder;

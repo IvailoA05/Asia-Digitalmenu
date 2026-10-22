@@ -92,6 +92,12 @@ function App() {
                             10:00 - 22:00
                         </p>
                         <p class="working-days">
+                            {t.workingSaturday}
+                        </p>
+                        <p class="working-hours">
+                            10:00 - 19:00
+                        </p>
+                        <p class="working-days">
                             {t.restDay}
                         </p>
                     </div>
