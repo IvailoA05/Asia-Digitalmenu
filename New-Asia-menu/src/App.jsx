@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CategoryFilter from "./components/CategoryFilter";
 import MenuItem from "./components/MenuItem";
+import Footer from "./components/Footer";
 
 import menu from "./data/menu";
 import translations from "./data/translations";
@@ -110,6 +111,8 @@ function App() {
                     </div> */}
 
                 </section>
+
+                <Footer />
 
             </main>
 
