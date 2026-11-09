@@ -12,6 +12,7 @@ const translations = {
         mainDishes: "Основни ястия",
         soups: "Супи",
         chips: "Чипс",
+        souces: "Сосове",
         drinks: "Напитки",
 
         contact: "Контакти",
@@ -31,6 +32,7 @@ const translations = {
         mainDishes: "Main Dishes",
         soups: "Soups",
         chips: "Chips",
+        souces: "Souces",
         drinks: "Drinks",
 
         contact: "Contact",
@@ -50,6 +52,7 @@ const translations = {
         mainDishes: "Основные блюда",
         soups: "Супы",
         chips: "Чипсы",
+        souces: "Соусы",
         drinks: "Напитки",
 
         contact: "Контакты",

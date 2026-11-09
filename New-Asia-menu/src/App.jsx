@@ -90,7 +90,7 @@ function App() {
                             {t.workingDays}
                         </p>
                         <p class="working-hours">
-                            10:00 - 22:00
+                            09:00 - 20:00
                         </p>
                         <p class="working-days">
                             {t.workingSaturday}

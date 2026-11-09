@@ -15,6 +15,10 @@ function CategoryFilter({ t, category, setCategory }) {
         {
             id: "chips",
             name: t.chips
+        },
+        {
+            id: "souces",
+            name: t.souces
         }
         /*{
             id: "drinks",

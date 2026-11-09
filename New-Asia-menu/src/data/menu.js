@@ -5,14 +5,14 @@ const menu = [
 
         name: {
             bg: "Спагети с пиле",
-            en: "Spaghetti with chicken",
+            en: "Chicken Noodles",
             ru: "Спагетти с курицей"
         },
 
         description: {
-            bg: "Пилешко филе с ориз и зеленчуци",
-            en: "Chicken fillet with rice and vegetables",
-            ru: "Куриное филе с рисом и овощами"
+            bg: "Спагети, пилешко филе, яйца, моркови, зеле",
+            en: "Noodles, chicken fillet, eggs, carrots, cabbage",
+            ru: "Спагетти, куриное филе, яйца, морковь, капуста"
         },
 
         price: 10.00,
@@ -28,14 +28,14 @@ const menu = [
 
         name: {
             bg: "Ориз с пиле",
-            en: "Chicken with rice",
+            en: "Chicken with Rice",
             ru: "Рис с курицей"
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Бял ориз, пилешко филе, яйца, грах, царевица, моркови",
+            en: "White rice, chicken fillet, eggs, peas, corn, carrots",
+            ru: "Белый рис, куриное филе, яйца, горох, кукуруза, морковь"
         },
 
         price: 10.00,
@@ -51,14 +51,14 @@ const menu = [
 
         name: {
             bg: "Пилешки хапки със сусам",
-            en: "Sesame chicken bites",
+            en: "Sesame Chicken Bites",
             ru: "Куриные кусочки в кунжуте"
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Панирано пилешко филе, сусам",
+            en: "Breaded chicken fillet, sesame seeds",
+            ru: "Куриное филе в панировке, с кунжутом"
         },
 
         price: 18.00,
@@ -79,9 +79,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Пилешко филе, панировка, сладко-кисел сос",
+            en: "Breaded chicken fillet, sweet and sour sauce",
+            ru: "Куриное филе в панировке, кисло-сладкий соус"
         },
 
         price: 12.00,
@@ -102,9 +102,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Пилешко филе, бамбук, черни гъби, печурки, моркови, лук",
+            en: "Chicken fillet, bamboo, black mushrooms, button mushrooms, carrots, onions",
+            ru: "Куриное филе, бамбук, черные грибы, шампиньоны, морковь, лук"
         },
 
         price: 12.00,
@@ -125,9 +125,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Пилешко филе, печурки, лук",
+            en: "Chicken fillet, mushrooms, onion",
+            ru: "Куриное филе, грибы, лук"
         },
 
         price: 12.00,
@@ -148,9 +148,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Пилешко филе, пресни пържени картофи, чесън",
+            en: "Chicken fillet, fresh fried potatoes, garlic",
+            ru: "Куриное филе, свежий картофель фри, чеснок"
         },
 
         price: 12.00,
@@ -171,9 +171,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Пилешко филе, черни гъби, печурки, бамбук, спагети, лютив сос, оцет",
+            en: "Chicken fillet, black mushrooms, button mushrooms, bamboo, noodles, spicy sauce, vinegar",
+            ru: "Куриное филе, черные грибы, шампиньоны, бамбук, спагетти, острый соус, уксус"
         },
 
         price: 3.00,
@@ -194,9 +194,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Оризови спагети, пилешко филе, яйца, моркови, зеле",
+            en: "Rice noodles, chicken fillet, eggs, carrots, cabbage",
+            ru: "Рисовая лапша, куриное филе, яйца, морковь, капуста"
         },
 
         price: 12.00,
@@ -211,15 +211,38 @@ const menu = [
         category: "main-dishes",
 
         name: {
+            bg: "Спагети със зеленчуци и яйце",
+            en: "Vegetable and Egg Noodles",
+            ru: "Лапша с овощами и яйцом"
+        },
+
+        description: {
+            bg: "Спагети, яйца, зеле, моркови",
+            en: "Noodles, eggs, cabbage, carrots",
+            ru: "Лапша, яйца, капуста, морковь"
+        },
+
+        price: 9.00,
+        quantity: 1,
+        unit: "kg",
+
+        image: "/menu/spageti-s-qica.jpg"
+    },
+
+    {
+        id: 11,
+        category: "main-dishes",
+
+        name: {
             bg: "Ориз със зеленчуци",
             en: "Rice with Vegetables",
             ru: "Рис с овощами"
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Бял ориз, зеле, моркови, грах, царевица",
+            en: "White rice, cabbage, carrots, peas, corn",
+            ru: "Белый рис, капуста, морковь, горох, кукуруза"
         },
 
         price: 9.00,
@@ -232,7 +255,7 @@ const menu = [
     },
 
     {
-        id: 11,
+        id: 12,
         category: "main-dishes",
 
         name: {
@@ -242,9 +265,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Пилешко филе, печурки, зеле, тиквички, моркови, лук, чушки",
+            en: "Chicken fillet, button mushrooms, cabbage, zucchini, carrots, onions, peppers",
+            ru: "Куриное филе, грибы, капуста, цуккини, морковь, лук, перец"
         },
 
         price: 12.00,
@@ -255,7 +278,7 @@ const menu = [
     },
 
     {
-        id: 12,
+        id: 13,
         category: "main-dishes",
 
         name: {
@@ -265,9 +288,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "Печурки, черни гъби, бамбук, тиквички, чушки, зеле, лук, моркови",
+            en: "Button mushrooms, black mushrooms, bamboo, zucchini, peppers, cabbage, onions, carrots",
+            ru: "Грибы, черные грибы, бамбук, цуккини, перец, капуста, лук, морковь"
         },
 
         price: 9.00,
@@ -280,7 +303,7 @@ const menu = [
     },
 
     {
-        id: 13,
+        id: 14,
         category: "chips",
 
         name: {
@@ -290,9 +313,9 @@ const menu = [
         },
 
         description: {
-            bg: "Домати, краставици, чушки и българско сирене",
-            en: "Tomatoes, cucumbers, peppers and Bulgarian cheese",
-            ru: "Помидоры, огурцы, перец и болгарская брынза"
+            bg: "-",
+            en: "-",
+            ru: "-"
         },
 
         price: 1.50,
@@ -300,7 +323,77 @@ const menu = [
         unit: "gr",
 
         image: "/menu/chips-ot-skaridi.jpeg"
-    }
+    },
+
+    {
+        id: 15,
+        category: "souces",
+
+        name: {
+            bg: "Соев сос",
+            en: "Soy Sauce",
+            ru: "Соевый соус"
+        },
+
+        description: {
+            bg: "-",
+            en: "-",
+            ru: "-"
+        },
+
+        price: 1.00,
+        quantity: 200,
+        unit: "gr",
+
+        image: "/menu/soev-sos.jpg"
+    },
+
+    {
+        id: 16,
+        category: "souces",
+
+        name: {
+            bg: "Лют сос",
+            en: "Hot Sauce",
+            ru: "Острый соус"
+        },
+
+        description: {
+            bg: "-",
+            en: "-",
+            ru: "-"
+        },
+
+        price: 1.00,
+        quantity: 60,
+        unit: "gr",
+
+        image: "/menu/liut-sos.jpg"
+    },
+
+    {
+        id: 17,
+        category: "souces",
+
+        name: {
+            bg: "Сладко-кисел сос",
+            en: "Sweet and Sour Sauce",
+            ru: "Кисло-сладкий соус"
+        },
+
+        description: {
+            bg: "-",
+            en: "-",
+            ru: "-"
+        },
+
+        price: 1.00,
+        quantity: 200,
+        unit: "gr",
+
+        image: "/menu/sladko-kisel-sos.jpg"
+    },
+    
 ];
 
 export default menu;

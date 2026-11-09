@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-gold-line"></div>
 
       <p className="footer-copyright">
-        © {year} New Asia. Всички права запазени.
+        © {year} Нова Asia. Всички права запазени.
       </p>
     </footer>
   );
